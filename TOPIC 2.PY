@@ -241,7 +241,6 @@ def main():
     for name, category, price, rating, tags, stock in gifts_data:
         system.add_gift(name, category, price, rating, tags, stock)
     
-    # Get recommendations
     print("\nGeneral Recommendations (top 3):")
     for gift in system.get_recommendations(3):
         print(f"{gift.name} - ${gift.price:.2f} - Rating: {gift.rating}")
