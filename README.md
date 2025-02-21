@@ -7,13 +7,15 @@ int main ()
 cout << "Hello, World!"; 
 	return 0;
 }
+
+
+
 •	#include  : This includes a library that allows us to print anything by using "cout".
 •	<iostream : incuding input and output in a program you are doing.
 •	using namespace std  : help programer to write in easy way without wring std::.... IN each line of code.
 •	int main ()  :  its a function where program start .
 •	cout :  help programmmer to print output on screen.
 •	return 0 : it end the program successfull with  zero error.
-•	;  : 
 
 
 Q2. This question is dealing with variables, data type and values of variables.
